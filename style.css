@@ -63,14 +63,7 @@ body{
     left: 190px;
     top: 570px;
 }
-.button{
-    position: absolute;
-    width: 100px;
-    height: 50px;
-    left: 0px;
-    top: 270px;
-    font-size: 16px;
-}
+
 .ptvde{
     color:var(--cor--quartenaria);
     margin: 10px;
@@ -85,3 +78,81 @@ body{
     left: 1100px;
     top: 210px;
 }
+@media (max-width: 800px){/*muda a tela quando alcanca esses pixels*/
+    :root{
+        --cor--primaria:#191A19;
+        --cor-secundaria:#1E5128;
+        --cor--terciaria:#4E9F3D;
+        --cor--quartenaria:#D8E9A8;
+    }
+    body{
+        padding: auto;
+        background: var(--cor--primaria);
+        color: var(--cor--terciaria);
+
+    }
+    .inicial{
+        padding: auto;
+        text-align: center;
+        color: var(--cor--quartenaria);
+    }
+    
+    .apresentacao{
+        color: var(--cor--terciaria);
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+        display: flex;
+
+    
+    }
+    /*.imagem__motorista{
+        position: absolute;
+        left: 880px;
+        top: 210px;
+        border-radius: 16PX;/*ARREDONDA A BORDA
+    }
+    .imagem__operador{
+        position: absolute;
+        left: 1100px;
+        top: 210px;
+        border-radius: 16px;
+    }*/
+    .instagram{
+        position: absolute;
+        color:var(--cor--quartenaria);
+        left: 90px;
+        top: 570px;
+    }
+    .facebook{
+        color: var(--cor--quartenaria);
+        position: absolute;
+        left: 220px;
+        top: 570px;
+    }
+    .logoFacebook{
+        position: absolute;
+        left: 310px;
+        top: 570px;
+    }
+    .logoInstagram{
+        position: absolute;
+        left: 190px;
+        top: 570px;
+    }
+
+    .ptvde{
+        color:var(--cor--quartenaria);
+        margin: 10px;
+        text-align: center;
+        font-size: 100px;
+    }
+    .teste{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 850px;
+        left: auto;
+ 
+    }
