@@ -1,0 +1,87 @@
+:root{
+    --cor--primaria:#191A19;
+    --cor-secundaria:#1E5128;
+    --cor--terciaria:#4E9F3D;
+    --cor--quartenaria:#D8E9A8;
+}
+body{
+    background: linear-gradient(black, #1E5128);
+    height: 100vh;/*Define a altura do Body em 100% da página vh meta name="viewport"*/
+    color: var(--cor--terciaria);
+    box-sizing: border-box;/*box-sizing é responsável por como a largura e a altura totais de um elemento são calculadas*/
+}
+.inicial{
+  
+    text-align: center;
+    color: var(--cor--quartenaria);
+}
+
+.apresentacao{
+    color: var(--cor--terciaria);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    left: auto;
+    top: 210px;
+
+}
+.apresentacao{
+    width: 50%;
+}
+/*.imagem__motorista{
+    position: absolute;
+    left: 880px;
+    top: 210px;
+    border-radius: 16PX;/*ARREDONDA A BORDA
+}
+.imagem__operador{
+    position: absolute;
+    left: 1100px;
+    top: 210px;
+    border-radius: 16px;
+}*/
+.instagram{
+    position: absolute;
+    color:var(--cor--quartenaria);
+    left: 90px;
+    top: 570px;
+}
+.facebook{
+    color: var(--cor--quartenaria);
+    position: absolute;
+    left: 220px;
+    top: 570px;
+}
+.logoFacebook{
+    position: absolute;
+    left: 310px;
+    top: 570px;
+}
+.logoInstagram{
+    position: absolute;
+    left: 190px;
+    top: 570px;
+}
+.button{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 0px;
+    top: 270px;
+    font-size: 16px;
+}
+.ptvde{
+    color:var(--cor--quartenaria);
+    margin: 10px;
+    text-align: center;
+    font-size: 100px;
+}
+.teste{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: absolute;
+    left: 1100px;
+    top: 210px;
+}
